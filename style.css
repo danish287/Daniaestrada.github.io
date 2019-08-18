@@ -23,7 +23,7 @@ html {
 
 .center{
     position: relative;
-    margin: 25% 29% 0 10%; 
+    margin:     19% 29% 0 10%; 
     margin-right: 23%;
 }
 
@@ -36,8 +36,8 @@ html {
     background-color: transparent;
     /*border: 2px solid black;
     border-radius: 50px;*/
-    margin: auto;
-    padding: 15px 20px 10px 0;
+    margin: auto auto auto 0;
+    padding: 15px 20px 10px 0px;
     font-size: 20px;
     color: black;
     letter-spacing: 2px;
@@ -47,7 +47,7 @@ html {
     text-align: center;
 }
 a:link{
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
@@ -63,14 +63,31 @@ a:hover {
 
 }
 
+#contactinfo {
+    margin: 0px; 
+    position: relative;
+ 
+    padding: 5px 8px 5px 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+
 
 .fa {
-  padding: 11px;
+  padding: 10px;
+    
   font-size: 30px;
-  width: 50px;
+  width:50px;
+    height:50px;
   text-align: center;
   text-decoration: none;
-  margin: 10% 3% 0;
+  margin: 6px 13px 3% 13px;
 border-radius: 100px;
   
 }
@@ -82,7 +99,9 @@ border-radius: 100px;
 .fa-facebook {
   background: #3B5998;
   color: white;
+    margin: 15px 13px 3%  0px;
 }
+
 
 .fa-twitter {
   background: #55ACEE;
@@ -105,5 +124,17 @@ border-radius: 100px;
   background: #2c4762;
   color: white;
 }
+
+.fa-github {
+  background: black;
+  color: white;
+    
+}
+
+
+
+
+
+
 
 
