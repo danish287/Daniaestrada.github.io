@@ -1,8 +1,8 @@
 body {
   /* Location of the image */
-  background-image: url(images/dania.png);
+  background-image: url(images/pink/half%20pink%20building.jpeg);
   /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
+  background-position: top center;
   /* Background image doesn't tile */
   background-repeat: no-repeat;
   /* Background image is fixed in the viewport so that it doesn't move when 
@@ -17,18 +17,28 @@ body {
 }
 
 html { 
-  font-family: proxima nova, sans-serif;
+    font-family: proxima nova, sans-serif;
 
 }
 
 .center{
     position: relative;
-    margin:     19% 29% 0 10%; 
-    margin-right: 23%;
+    padding: 0 2px 20px 30px;
+    margin-top: 0px;
+    margin-left: 2.5%;
+    text-align: center;
+    
+}
+.caption{
+    letter-spacing: 2px;
+    margin: 2px;
+    color: black;
 }
 
 .name{
-    font-size: 85px;
+    font-size: 40px;
+    margin: 0;
+    color: black;
 }
 
 .btnlink{
@@ -41,6 +51,7 @@ html {
     font-size: 20px;
     color: black;
     letter-spacing: 2px;
+
 }
 .link{
     color: black;
@@ -54,40 +65,38 @@ a:link{
 a:hover {
     color: white;
     font-size: 22px;
-    /*border: 2px solid #f792a4;
-    background-color: #f792a4;*/
-/*box-shadow: 10px 10px 178px 47px rgba(241,234,224,1);*/
-/*
-    box-shadow: 10px 10px 131px -3px rgba(244,125,187,1);
-*/
+
 
 }
 
 #contactinfo {
     margin: 0px; 
+    margin-right: 0px;
     position: relative;
- 
+    text-align: center;
+
     padding: 5px 8px 5px 0;
     font-size: 30px;
     letter-spacing: 2px;
 
 }
 
-
-
-
+.namewrap{
+    padding: 15px 2px 20px 50px;
+}
 
 
 
 .fa {
   padding: 10px;
     
+    right: 0px;
   font-size: 30px;
   width:50px;
     height:50px;
   text-align: center;
   text-decoration: none;
-  margin: 6px 13px 3% 13px;
+  margin: 0px 13px 0% 13px;
 border-radius: 100px;
   
 }
@@ -99,7 +108,7 @@ border-radius: 100px;
 .fa-facebook {
   background: #3B5998;
   color: white;
-    margin: 15px 13px 3%  0px;
+    margin: 0px 13px 0%  0px;
 }
 
 
@@ -129,6 +138,10 @@ border-radius: 100px;
   background: black;
   color: white;
     
+}
+
+#e{
+    margin-top: 13px;
 }
 
 

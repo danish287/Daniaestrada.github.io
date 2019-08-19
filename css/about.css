@@ -96,6 +96,22 @@ a:hover {
     background-size: cover;
     color: white;
 }
+.parallax-2 {
+    /* The image used */
+    background-image: url(../images/DukeCompSci2019_051119_IMG_0318.JPG);
+
+    /* Set a specific height */
+    min-height: 768px; 
+   
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 10% 24%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
 
 
 
