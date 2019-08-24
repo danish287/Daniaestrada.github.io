@@ -1,0 +1,144 @@
+body {
+    /* Location of the image */
+    background-image: url(../images/gractals.png);
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center bottom;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: white;
+}
+
+html { 
+    font-family: proxima nova, sans-serif;
+
+}
+
+.center{
+    position: relative;
+    padding: 35px 2px 20px 30px;
+    text-align: center;
+    margin-top: 3%;
+}
+.caption{
+    letter-spacing: 2px;
+    margin: 2px;
+    color: black;
+}
+
+.name{
+    font-size: 40px;
+    margin: 0;
+    color: black;
+}
+
+.btnlink{
+    /*background-color: #F47DBB;*/
+    background-color: transparent;
+    /*border: 2px solid black;
+    border-radius: 50px;*/
+    margin: auto auto auto 0;
+    padding: 15px 20px 10px 0px;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2px;
+
+}
+.link{
+    color: black;
+    text-align: center;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover {
+    color: white;
+    font-size: 22px;
+
+
+}
+
+#contactinfo {
+    margin: 0px; 
+    position: relative;
+
+    padding: 5px 8px 5px 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+.namewrap{
+    padding: 15px 2px 20px 50px;
+}
+
+
+.fa {
+  padding: 10px;
+    
+  text-align: center;
+  font-size: 30px;
+  width:50px;
+    height:50px;
+    
+  text-decoration: none;
+  margin: 0px 13px 0% 13px;
+border-radius: 100px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+    margin: 0px 13px 0%  0px;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+    
+}
+
+#e{
+    margin-top: 13px;
+}
+
+
+
+
