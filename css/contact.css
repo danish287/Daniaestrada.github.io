@@ -2,7 +2,7 @@ body {
     /* Location of the image */
     background-image: url(../images/gractals.png);
     /* Background image is centered vertically and horizontally at all times */
-    background-position: center bottom;
+    background-position: center center;
     /* Background image doesn't tile */
     background-repeat: no-repeat;
     /* Background image is fixed in the viewport so that it doesn't move when 
@@ -24,9 +24,17 @@ html {
 .center{
     position: relative;
     padding: 35px 2px 20px 30px;
-    text-align: center;
-    margin-top: 3%;
+
 }
+.mid{
+    position: relative;
+    padding: 35px 2px 20px 30px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+
+
 .caption{
     letter-spacing: 2px;
     margin: 2px;
@@ -82,14 +90,15 @@ a:hover {
 }
 
 
+
 .fa {
   padding: 10px;
     
-  text-align: center;
+    right: 0px;
   font-size: 30px;
   width:50px;
     height:50px;
-    
+  text-align: center;
   text-decoration: none;
   margin: 0px 13px 0% 13px;
 border-radius: 100px;
@@ -97,7 +106,7 @@ border-radius: 100px;
 }
 
 .fa:hover {
-    opacity: 0.7;
+    font-size: 25px;
 }
 
 .fa-facebook {
@@ -138,6 +147,12 @@ border-radius: 100px;
 #e{
     margin-top: 13px;
 }
+
+
+
+
+
+
 
 
 
