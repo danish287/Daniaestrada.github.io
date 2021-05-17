@@ -1,1 +1,14 @@
 # Daniaestrada.github.io
+- About Me
+    - Skills
+    - Education
+    - Who I am, what I do, and hwo to get in touch with me.
+    - YouTube?
+- Projects (3 projects)
+    - Technologies
+- Skills
+    - Front end: HTML5, CSS, JavaScript, Angular
+    - Server: Golang
+    - Database: mySQL, PostgreSQL, MongoDB
+    - Deployment: system design, AWS, Docker, kubrnetes
+    - Linux, MacOS, Windows
